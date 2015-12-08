@@ -1,0 +1,1 @@
+node_modules/curly-weasel-moo/node_modules/.bin/jade src/index.jade --out dist

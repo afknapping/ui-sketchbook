@@ -1,6 +1,6 @@
 # curly-weasel-moo
 
-my prototyping bash onliners in a handy package.
+bash onliner npm scripts for prototyping in a handy package.
 
 Expects:
 

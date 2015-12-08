@@ -1,0 +1,7 @@
+{
+    "use": ["autoprefixer", "postcss-reporter"],
+    "autoprefixer": {
+        "browsers": "> 0.1%",
+        "cascade": false
+    }
+}

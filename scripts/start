@@ -14,6 +14,7 @@ PTCWMS="node_modules/curly-weasel-moo/scripts"
 # copy node_modules
 $PTCWMS/build-jade
 $PTCWMS/compile-sass
+$PTCWMS/post-css
 # build-sass
 # postcss
 

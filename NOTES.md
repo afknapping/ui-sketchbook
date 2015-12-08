@@ -2,6 +2,7 @@
 ## Inital testing scripts
 
 - compile jade
+  "build-jade": "jade src/index.jade --out dist",
 - compile sass
 - use sass dep (colors)
 - build wrapper:
@@ -26,7 +27,7 @@ https://medium.com/greenkeeper-blog/one-simple-trick-for-javascript-package-main
     "build-css": "node-sass src/styles.scss dist/assets/css/styles.css --output-style expanded  --source-comments true --source-map true",
     "postbuild-css": "postcss --config .postcssrc.json --replace dist/assets/css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "build-jade": "jade src/index.jade --out dist",
+    
     "watch-jade": "nodemon -e jade -x \"npm run build-jade\"",
     "run-browsersync": "browser-sync start --files dist --server dist ",
 

@@ -1,0 +1,1 @@
+pwd && node_modules/curly-weasel-moo/scripts/build-jade && echo "works"

@@ -1,1 +1,3 @@
-node_modules/curly-weasel-moo/node_modules/.bin/jade src/index.jade --out dist
+node_modules/curly-weasel-moo/node_modules/.bin/jade src/ --out dist --hierarchy
+
+# --hierarchy can be removed with jade 2.0

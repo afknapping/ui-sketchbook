@@ -1,1 +1,1 @@
-node_modules/curly-weasel-moo/node_modules/.bin/node-sass src/assets/sass/main.scss dist/assets/css/main.css --output-style expanded  --source-comments true
+node_modules/curly-weasel-moo/node_modules/.bin/node-sass src/assets/sass/ --output dist/assets/css/ --output-style expanded  --source-comments true

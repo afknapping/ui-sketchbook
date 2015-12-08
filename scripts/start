@@ -13,6 +13,7 @@ PTCWMS="node_modules/curly-weasel-moo/scripts"
 # mkdir all the folders
 # copy node_modules
 $PTCWMS/build-jade
+$PTCWMS/compile-sass
 # build-sass
 # postcss
 

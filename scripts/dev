@@ -1,6 +1,24 @@
+# PTCWMS: PATH_TO_CURLY_WEASEL_MOO_SCRIPTS
+PTCWMS="node_modules/curly-weasel-moo/scripts"
+
+
 #### DEV ####
 
-# watch jade -> build it
-# watch sass -> build sass
-# watch CSS -> postcss
+
+
+
+./node_modules/curly-weasel-moo/node_modules/.bin/browser-sync start --files dist --server dist &
+./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e jade -x "$PTCWMS/_jade-to-html" & ./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e scss -x "$PTCWMS/_sass-to-css && $PTCWMS/_post-css"
+
+
+
+# watch and compile jade
+# watch and compile sass
+# watch compiled CSS and post-process
+
+
 # browsersync
+
+
+#    "watch-jade": "nodemon -e jade -x \"npm run build-jade\"",
+#    "run-browsersync": " ",

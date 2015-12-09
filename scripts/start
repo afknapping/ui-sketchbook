@@ -2,7 +2,6 @@
 PTCWMS="node_modules/curly-weasel-moo/scripts"
 
 $PTCWMS/build
-
-# $PTCWMS/dev
+$PTCWMS/dev
 
 

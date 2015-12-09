@@ -9,5 +9,3 @@ $PTCWMS/_copy-libs-to-dist
 $PTCWMS/_jade-to-html
 $PTCWMS/_sass-to-css
 $PTCWMS/_post-css
-# build-sass
-# postcss

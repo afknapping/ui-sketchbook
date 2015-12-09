@@ -1,3 +1,6 @@
+- init: copy src folder with jade, sass, js skeleton into ./
+
+
 
 ## 
 

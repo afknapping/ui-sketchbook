@@ -11,6 +11,14 @@ echo "dist/" > .gitignore
 echo "node_modules/" >> .gitignore
 echo "npm-debug.log" >> .gitignore
 
+add these to package.json
+
+```
+"scripts": {
+  "start": "node_modules/curly-weasel-moo/scripts/start",
+  "deploy": "node_modules/curly-weasel-moo/scripts/deploy"
+}
+```
 
 git init && git add --all  && git ci -m "init"
 
@@ -21,11 +29,3 @@ npm start   # stuff should get compiled into a new dist folder
 
 ```
 
-add these to package.json
-
-```
-"scripts": {
-  "start": "node_modules/curly-weasel-moo/scripts/start",
-  "deploy": "node_modules/curly-weasel-moo/scripts/deploy"
-}
-```

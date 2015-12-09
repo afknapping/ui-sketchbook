@@ -1,10 +1,22 @@
 # curly-weasel-moo
 
-bash onliner npm scripts for prototyping in a handy package.
+```
+npm init   # will guide you through generating a package.json
 
-Expects:
+npm install --save curly-weasel-moo   # install the toolbox
 
-jade: src/  
-sass: src/assets/sass/  
-images: src/assets/images/  
-css: dist/assets/css/  
+
+# make a .gitignore
+echo "dist/" > .gitignore
+echo "node_modules/" >> .gitignore
+echo "npm-debug.log" >> .gitignore
+
+
+git init && git add --all  && git ci -m "init"
+
+./node_modules/curly-weasel-moo/scripts/init   # generate skeleton
+
+npm start   # stuff should get compiled into a new dist folder
+            # and a browser window should open
+
+```

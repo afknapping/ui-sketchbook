@@ -20,3 +20,12 @@ npm start   # stuff should get compiled into a new dist folder
             # and a browser window should open
 
 ```
+
+add these to package.json
+
+```
+"scripts": {
+  "start": "node_modules/curly-weasel-moo/scripts/start",
+  "deploy": "node_modules/curly-weasel-moo/scripts/deploy"
+}
+```

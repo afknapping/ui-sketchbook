@@ -1,0 +1,19 @@
+// main.scss
+
+// COLORS
+@import "node_modules/curly-weasel-moo/node_modules/colors.css/sass/variables";
+
+// SASSLIB
+@import "node_modules/curly-weasel-moo/sasslib/sasslib";
+
+@include system-fonts;
+
+
+
+
+
+body {
+  background-color: $red;
+  text-align-last: 1; // this only exists to get an autoprefixer positive
+  color: $white;
+}

@@ -1,0 +1,27 @@
+# TODO test if folder exists, make backup
+# test -d "$d" || mkdir -p "$d" && cp file "$d"
+
+# safety commit
+git add --all
+git ci -m "Windows™ Recovery Point"
+echo "---> made a safety commit"
+echo "undo by doing"
+echo "git reset --hard HEAD"
+
+# clean src
+rm -rf src
+
+# create folders
+
+mkdir src
+mkdir src/assets
+mkdir src/assets/sass
+mkdir src/assets/images
+
+# copy jade skeleton
+cp -r node_modules/curly-weasel-moo/_boilerplate/jade/** src/
+echo "\n ---> copied jade \n"
+
+# copy sass
+cp -r node_modules/curly-weasel-moo/_boilerplate/sass/** src/assets/sass
+echo "\n ---> copied sass \n"

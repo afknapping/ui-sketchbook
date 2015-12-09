@@ -1,0 +1,2 @@
+rm -rf dist/
+echo "\n ---> dist/ removed \n"

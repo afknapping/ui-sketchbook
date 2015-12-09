@@ -1,0 +1,5 @@
+mkdir dist/
+mkdir dist/assets/
+mkdir dist/assets/vendor/
+cp node_modules/curly-weasel-moo/node_modules/jquery/dist/jquery.min.js dist/assets/vendor/jquery.min.js
+echo "\n ---> copied jquery \n"

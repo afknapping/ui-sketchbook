@@ -1,0 +1,13 @@
+# PTCWMS: PATH_TO_CURLY_WEASEL_MOO_SCRIPTS
+PTCWMS="node_modules/curly-weasel-moo/scripts"
+
+
+#### BUILD ####
+
+$PTCWMS/_clean-dist
+$PTCWMS/_copy-libs-to-dist
+$PTCWMS/_jade-to-html
+$PTCWMS/_sass-to-css
+$PTCWMS/_post-css
+# build-sass
+# postcss

@@ -1,10 +1,6 @@
 
 ## Inital testing scripts
 
-- compile jade
-  "build-jade": "jade src/index.jade --out dist",
-- compile sass
-- use sass dep (colors)
 - build wrapper:
     - compile jade, sass
 - deploy dist/ to curly-weasel-moo.surge.sh
@@ -13,6 +9,7 @@
 
 ## meta
 
+- have central variables for all scripts
 - bump and publish
 - keep deps up to date with greenkeeper
 

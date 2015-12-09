@@ -1,0 +1,6 @@
+#### DEV ####
+
+# watch jade -> build it
+# watch sass -> build sass
+# watch CSS -> postcss
+# browsersync

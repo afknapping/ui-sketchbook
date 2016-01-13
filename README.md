@@ -18,7 +18,7 @@ echo "node_modules/" >> .gitignore
 echo "npm-debug.log" >> .gitignore
 ```
 
-add these to package.json
+open your editor and add these scripts to package.json
 
 ```
 "scripts": {

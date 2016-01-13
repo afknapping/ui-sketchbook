@@ -1,19 +1,24 @@
 // main.scss
 
-// COLORS
+// COLORS: http://clrs.cc/
 @import "node_modules/curly-weasel-moo/node_modules/colors.css/sass/variables";
+
+// reset is gives clearer canvas for UI stuff than normalize
 
 // SASSLIB
 @import "node_modules/curly-weasel-moo/sasslib/sasslib";
-
+// SASSLIB defaults
 @include system-fonts;
 
 
-
-
+* {
+  box-sizing: border-box;
+  transition: all ease-in 0.2s;
+}
 
 body {
-  background-color: $red;
+  background-color: $silver;
+  color: $black;
   text-align-last: 1; // this only exists to get an autoprefixer positive
-  color: $white;
 }
+

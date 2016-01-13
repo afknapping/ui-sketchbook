@@ -6,6 +6,7 @@ PTCWMS="node_modules/curly-weasel-moo/scripts"
 
 $PTCWMS/_clean-dist
 $PTCWMS/_copy-libs-to-dist
+$PTCWMS/_copy-bucket
 $PTCWMS/_jade-to-html
 $PTCWMS/_sass-to-css
 $PTCWMS/_post-css

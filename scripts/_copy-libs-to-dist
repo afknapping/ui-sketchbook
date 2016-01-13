@@ -1,5 +1,8 @@
 mkdir dist/
 mkdir dist/assets/
 mkdir dist/assets/vendor/
+
+# copies jquery.min.js from node_modules to the dist folder
+# see _layouts-includes/_head.jade for usage
 cp node_modules/curly-weasel-moo/node_modules/jquery/dist/jquery.min.js dist/assets/vendor/jquery.min.js
 echo "\n ---> copied jquery \n"

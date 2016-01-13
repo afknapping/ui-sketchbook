@@ -3,6 +3,31 @@ extends ./_layouts-includes/_layout.jade
 block content
 
   h1
-    | hello jade 
-  p
-    | Cupcake ipsum dolor. Sit amet I love bonbon* bear claw tootsie roll jelly.* I love chocolate ice cream* chupa chups I love. Gummi bears I love wafer marzipan jujubes sweet tootsie roll bear claw. Dessert gingerbread dragée sweet roll liquorice fruitcake marzipan donut. I love I love sugar plum marshmallow jujubes. Cotton candy jujubes oat cake chocolate cake chocolate cake marshmallow bear claw chocolate cake. Jelly cupcake gingerbread I love cupcake sesame snaps apple pie oat cake.
+    | UI Toolkit
+  h2
+    | you are looking at...
+  li
+    | src/index.jade
+  li
+    | src/assets/sass/main.scss
+
+  h2
+    | Toolkit
+  li
+    | Jade, Sass, PostCSS
+  li
+    | jQuery, ui lang
+  li
+    a(href="http://clrs.cc/")
+      | Colors (add the 16 swatches?)
+
+    h2
+      | try it:
+    li.inspect-me
+      | inspect me
+    li.click-me
+      | click me
+
+
+  //- holds inline ui-lang and jquery
+  include ./_layouts-includes/_interaction.jade

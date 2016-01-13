@@ -3,6 +3,10 @@
 terminal:
 
 ```
+mkdir my-new-thing
+cd my-new-thing 
+git init
+
 npm init   # will guide you through generating a package.json
 
 npm install --save curly-weasel-moo   # install the toolbox
@@ -26,8 +30,6 @@ add these to package.json
 terminal again:
 
 ```
-git init
-
 ./node_modules/curly-weasel-moo/scripts/init   # generate skeleton and init git repo
 
 npm start   # stuff should get compiled into a new dist folder

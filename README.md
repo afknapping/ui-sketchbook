@@ -26,6 +26,8 @@ add these to package.json
 terminal again:
 
 ```
+git init
+
 ./node_modules/curly-weasel-moo/scripts/init   # generate skeleton and init git repo
 
 npm start   # stuff should get compiled into a new dist folder

@@ -1,5 +1,7 @@
 # curly-weasel-moo
 
+terminal:
+
 ```
 npm init   # will guide you through generating a package.json
 
@@ -10,6 +12,7 @@ npm install --save curly-weasel-moo   # install the toolbox
 echo "dist/" > .gitignore
 echo "node_modules/" >> .gitignore
 echo "npm-debug.log" >> .gitignore
+```
 
 add these to package.json
 
@@ -20,9 +23,10 @@ add these to package.json
 }
 ```
 
-git init && git add --all  && git ci -m "init"
+terminal again:
 
-./node_modules/curly-weasel-moo/scripts/init   # generate skeleton
+```
+./node_modules/curly-weasel-moo/scripts/init   # generate skeleton and init git repo
 
 npm start   # stuff should get compiled into a new dist folder
             # and a browser window should open

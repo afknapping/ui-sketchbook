@@ -1,6 +1,14 @@
 # curly-weasel-moo
 
-terminal:
+curly-weasel-moo is a toolkit to scaffold and build quick browser UI prototypes. It works with npm scripts – no gulp, no grunt.
+
+It brings some handy defaults and packages which should make prototyping in the browser quicker and more fun, like jade, sass, surge, colors. (tbc: icons, ui elements, typography defaults...)
+
+*REQUIRES NPM 3*
+
+## To get started from zero...
+
+...open your terminal and enter these lines:
 
 ```
 mkdir my-new-thing

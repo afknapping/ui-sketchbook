@@ -7,9 +7,9 @@ PTCWMS="node_modules/curly-weasel-moo/scripts"
 
 
 
-./node_modules/curly-weasel-moo/node_modules/.bin/browser-sync start --files dist --server dist & ./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e jade -x "$PTCWMS/_jade-to-html" & ./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e scss -x "$PTCWMS/_sass-to-css && $PTCWMS/_post-css"
+./node_modules/.bin/browser-sync start --files dist --server dist & ./node_modules/.bin/nodemon -e jade -x "$PTCWMS/_jade-to-html" & ./node_modules/.bin/nodemon -e scss -x "$PTCWMS/_sass-to-css && $PTCWMS/_post-css"
 
-./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e jade -x "$PTCWMS/_jade-to-html" & ./node_modules/curly-weasel-moo/node_modules/.bin/nodemon -e scss -x "$PTCWMS/_sass-to-css && $PTCWMS/_post-css"
+./node_modules/.bin/nodemon -e jade -x "$PTCWMS/_jade-to-html" & ./node_modules/.bin/nodemon -e scss -x "$PTCWMS/_sass-to-css && $PTCWMS/_post-css"
 
 
 

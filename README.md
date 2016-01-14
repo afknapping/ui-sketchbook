@@ -20,9 +20,10 @@ npm install --save curly-weasel-moo
 
 # add script shortcuts to package.json
 
-node_modules/npm-add-script/cmd.js --key "start" --value "node_modules/curly-weasel-moo/scripts/start"
+node_modules/curly-weasel-moo/node_modules/npm-add-script/cmd.js --key "start" --value "node_modules/curly-weasel-moo/scripts/start"
 
-node_modules/npm-add-script/cmd.js --key "deploy" --value "node_modules/curly-weasel-moo/scripts/deploy"
+node_modules/curly-weasel-moo/node_modules/npm-add-script/cmd.js --key "deploy" --value "node_modules/curly-weasel-moo/scripts/deploy"
+
 
 
 # generate scaffold skeleton

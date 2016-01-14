@@ -24,10 +24,12 @@ node_modules/curly-weasel-moo/node_modules/npm-add-script/cmd.js --key "start" -
 
 node_modules/curly-weasel-moo/node_modules/npm-add-script/cmd.js --key "deploy" --value "node_modules/curly-weasel-moo/scripts/deploy"
 
+node_modules/curly-weasel-moo/node_modules/npm-add-script/cmd.js --key "init" --value "node_modules/curly-weasel-moo/scripts/init"
+
 
 
 # generate scaffold skeleton
-./node_modules/curly-weasel-moo/scripts/init
+npm run init
 
 npm start   # stuff should get compiled into a new dist folder
             # and a browser window should open

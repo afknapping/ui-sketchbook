@@ -1,7 +1,10 @@
 {
-    "use": ["autoprefixer", "postcss-reporter"],
+    "use": ["autoprefixer", "postcss-reporter", "postcss-import"],
     "autoprefixer": {
         "browsers": "> 0.1%",
         "cascade": false
+    },
+    "postcss-import": {
+      "from": "."
     }
 }

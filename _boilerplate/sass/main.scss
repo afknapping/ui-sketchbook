@@ -3,7 +3,23 @@
 // COLORS: http://clrs.cc/
 @import "./node_modules/colors.css/sass/variables";
 
-// reset is gives clearer canvas for UI stuff than normalize
+// Semantic UI semantic-ui.com
+@import "./node_modules/semantic-ui-css/semantic.css";
+
+// link local copies of icon font files
+// TODO: replace with base64 import
+$iconpath: "/assets/vendor";
+@font-face {
+  font-family: 'Icons';
+  src: url("#{$iconpath}/icons.eot");
+  src: url("#{$iconpath}/icons.eot?#iefix") format('embedded-opentype'), url("#{$iconpath}/icons.woff2") format('woff2'), url("#{$iconpath}/icons.woff") format('woff'), url("#{$iconpath}/icons.ttf") format('truetype'), url("#{$iconpath}/icons.svg#icons") format('svg');
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: inherit;
+  text-transform: none;
+}
+
 
 // SASSLIB
 @import "node_modules/curly-weasel-moo/sasslib/sasslib";
@@ -11,10 +27,11 @@
 @include system-fonts;
 
 
-* {
-  box-sizing: border-box;
-  transition: all ease-in 0.2s;
-}
+// deprecated because semantic included reset?
+// * {
+//   box-sizing: border-box;
+//   transition: all ease-in 0.2s;
+// }
 
 body {
   background-color: $silver;

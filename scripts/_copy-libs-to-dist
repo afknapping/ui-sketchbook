@@ -5,4 +5,16 @@ mkdir dist/assets/vendor/
 # copies jquery.min.js from node_modules to the dist folder
 # see _layouts-includes/_head.jade for usage
 cp ./node_modules/jquery/dist/jquery.min.js dist/assets/vendor/jquery.min.js
-echo "\n ---> copied jquery \n"
+echo " "
+echo "---> copied jquery"
+echo " "
+
+
+# pull semantic ui until better solution
+cp -r  node_modules/semantic-ui-css/themes/default/assets/fonts/ dist/assets/vendor/
+cp node_modules/semantic-ui-css/semantic.js dist/assets/vendor/
+
+
+echo " "
+echo "---> copied semantic"
+echo " "

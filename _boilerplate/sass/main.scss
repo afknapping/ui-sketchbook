@@ -34,7 +34,7 @@ $iconpath: "/assets/vendor";
 // }
 
 body {
-  background-color: $silver;
+  padding-top: 5em;
   color: $black;
   text-align-last: 1; // this only exists to get an autoprefixer positive
 }

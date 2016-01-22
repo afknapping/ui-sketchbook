@@ -2,27 +2,65 @@ extends ./_layouts-includes/_layout.jade
 
 block content
 
-  h1
-    | UI Toolkit
-  h2
-    | you are looking at...
-  li
-    | src/index.jade
-  li
-    | src/assets/sass/main.scss
 
-  h2
-    | Toolkit
-  li
-    | Jade, Sass, PostCSS
-  li
-    | jQuery, ui lang
-  li
-    a(href="http://clrs.cc/")
-      | Colors (add the 16 swatches?)
-  li
-    a(href="http://semantic-ui.com/")
-      | Semantic UI
+  .ui.container
+    h1
+      | Hi. I am your UI Whiteboard... ¯\_(ツ)_/¯
+  
+  .ui.divider  
+
+  .ui.container
+
+    h2
+      | Some 
+      a(href='http://semantic-ui.com/elements/')
+        | Semantic UI 
+      | Examples
+
+    .ui.divider
+
+
+    form.ui.form
+      .field
+        label
+          | First Name
+        input(type='text', name='first-name', placeholder='First Name')
+      .field
+        label
+          | Last Name
+        input(type='text', name='last-name', placeholder='Last Name')
+      .field
+        .ui.checkbox
+          input.hidden(type='checkbox', tabindex='0')
+          label
+            | I agree to the Terms and Conditions
+
+      button.ui.button(type='submit') Submit
+
+
+
+
+  .ui.divider
+
+  .ui.container
+
+    h1
+      | Edit these files:
+
+    li
+      | Markup: 
+      code
+        | src/index.jade
+    li
+      | Sass: 
+      code
+        | src/assets/sass/main.scss
+    li
+      | jQuery and UI-lang: 
+      code
+        | src/_layouts-includes/_interaction.jade
+
+
 
   //- holds inline ui-lang and jquery
   include ./_layouts-includes/_interaction.jade

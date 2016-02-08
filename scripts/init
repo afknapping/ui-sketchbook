@@ -20,6 +20,7 @@ rm -rf src
 mkdir src
 mkdir src/assets
 mkdir src/assets/sass
+mkdir src/assets/js
 mkdir src/assets/images
 mkdir src/assets/bucket
 
@@ -34,6 +35,13 @@ cp -r node_modules/curly-weasel-moo/_boilerplate/sass/** src/assets/sass
 echo " "
 echo "---> copied sass"
 echo " "
+
+# copy js
+cp -r node_modules/curly-weasel-moo/_boilerplate/js/** src/assets/js
+echo " "
+echo "---> copied js"
+echo " "
+
 
 echo " "
 echo "---> you have a src folder now that looks like this:"

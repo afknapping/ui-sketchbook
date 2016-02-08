@@ -1,5 +1,7 @@
 mkdir dist/
 mkdir dist/assets/
+mkdir dist/assets/css/
+mkdir dist/assets/js/
 mkdir dist/assets/vendor/
 
 # copies jquery.min.js from node_modules to the dist folder

@@ -1,4 +1,12 @@
 # bucket is to store temporary stuff. images, icons...
 
 cp -r src/assets/bucket/ dist/assets/bucket/
+echo " ---> copied bucket"
+echo " "
 
+# copy js assets
+# TODO: should be own script
+
+# "cp src/assets/js/app.js dist/assets/js/"
+# echo " ---> copied js"
+# echo " "

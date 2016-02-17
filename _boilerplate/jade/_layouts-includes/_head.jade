@@ -1,15 +1,23 @@
 head
-  //- JQUERY
-  script(src="/assets/vendor/jquery.min.js")
-
   //- semantic UI
-  script(src="/assets/vendor/semantic.js")
+  //- script(src="/assets/vendor/semantic.js" defer)
 
   //- MAIN.CSS
   link(rel="stylesheet" type="text/css" href="assets/css/main.css")
 
+
+  //- JQUERY
+  script(src="/assets/vendor/jquery.min.js" defer)
+
+  //- APP stuff
+  script(src="/assets/js/app.js" defer)
+
+
+  include _mobile.jade
+
   //- icons... try svg lib, import helper, as jade includes?
   //- try to use a mobile boilerplate versio which just has the exends header and the block as change?
+
 
 
   //- ui-lang.com

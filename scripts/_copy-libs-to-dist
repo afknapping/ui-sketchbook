@@ -4,16 +4,32 @@ mkdir dist/assets/css/
 mkdir dist/assets/js/
 mkdir dist/assets/vendor/
 
+# see _layouts-includes/_head.jade for usage of vendor libs
+
+
 # copies jquery.min.js from node_modules to the dist folder
-# see _layouts-includes/_head.jade for usage
 cp ./node_modules/jquery/dist/jquery.min.js dist/assets/vendor/jquery.min.js
 echo " "
 echo "---> copied jquery"
 echo " "
 
+# hammerjs
+cp ./node_modules/hammerjs/hammer.min.js dist/assets/vendor/hammer.min.js
+echo " "
+echo "---> hammerjs"
+echo " "
 
-# pull semantic ui until better solution
-cp -r  node_modules/semantic-ui-css/themes/default/assets/fonts/ dist/assets/vendor/
+# hammer-time
+cp ./node_modules/hammer-timejs/hammer-time.js dist/assets/vendor/hammer-time.js
+echo " "
+echo "---> hammer-timejs"
+echo " "
+
+
+
+
+# semantic ui
+cp -r  ./node_modules/semantic-ui-css/themes/default/assets/fonts/ dist/assets/vendor/
 cp node_modules/semantic-ui-css/semantic.js dist/assets/vendor/
 
 

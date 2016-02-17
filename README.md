@@ -30,7 +30,7 @@ echo "npm-debug.log" >> .gitignore
 npm init
 
 # install the toolbox
-npm install --save blackboard
+npm install --save ui-sketchbook
 
 # add script shortcuts to package.json
 

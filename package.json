@@ -1,8 +1,8 @@
 {
-  "name": "curly-weasel-moo",
-  "version": "0.13.0-alpha",
-  "description": "",
-  "main": "index.js",
+  "name": "ui-sketchbook",
+  "version": "1.0.0",
+  "description": "Toolkit to scaffold, build and deploy static UI prototypes",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/filtercake/curly-weasel-moo.git"
+    "url": "https://github.com/filtercake/ui-sketchbook.git"
   },
   "author": "filtercake",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/filtercake/curly-weasel-moo/issues"
+    "url": "https://github.com/filtercake/ui-sketchbook/issues"
   },
-  "homepage": "https://github.com/filtercake/curly-weasel-moo"
+  "homepage": "https://github.com/filtercake/ui-sketchbook"
 }

@@ -1,3 +1,3 @@
-./node_modules/.bin/postcss --config node_modules/curly-weasel-moo/scripts/.postcssrc.json --replace dist/assets/css/*.css
+./node_modules/.bin/postcss --config node_modules/ui-sketchbook/scripts/.postcssrc.json --replace dist/assets/css/*.css
 
 echo "\n ---> post-processed CSS \n"

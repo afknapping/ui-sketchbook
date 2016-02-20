@@ -25,19 +25,19 @@ mkdir src/assets/images
 mkdir src/assets/bucket
 
 # copy jade skeleton
-cp -r node_modules/curly-weasel-moo/_boilerplate/jade/** src/
+cp -r node_modules/ui-sketchbook/_boilerplate/jade/** src/
 echo " "
 echo "---> copied jade"
 echo " "
 
 # copy sass
-cp -r node_modules/curly-weasel-moo/_boilerplate/sass/** src/assets/sass
+cp -r node_modules/ui-sketchbook/_boilerplate/sass/** src/assets/sass
 echo " "
 echo "---> copied sass"
 echo " "
 
 # copy js
-cp -r node_modules/curly-weasel-moo/_boilerplate/js/** src/assets/js
+cp -r node_modules/ui-sketchbook/_boilerplate/js/** src/assets/js
 echo " "
 echo "---> copied js"
 echo " "

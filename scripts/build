@@ -1,5 +1,5 @@
 # PTCWMS: PATH_TO_CURLY_WEASEL_MOO_SCRIPTS
-PTCWMS="node_modules/curly-weasel-moo/scripts"
+PTCWMS="node_modules/ui-sketchbook/scripts"
 
 
 #### BUILD ####

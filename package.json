@@ -1,6 +1,6 @@
 {
   "name": "ui-sketchbook",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Toolkit to scaffold, build and deploy static UI prototypes",
   "main": "",
   "scripts": {

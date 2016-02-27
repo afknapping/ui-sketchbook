@@ -1,40 +1,6 @@
-// main.scss
-
-// get browsersync notification out of the way
-// https://github.com/BrowserSync/browser-sync/issues/344#issuecomment-162470342
-#__bs_notify__ { top:94% !important; right: 10px !important; border-radius: 15px !important; height:60px !important; font-size: 12px !important;}
-
-// using reset instead of normalize because doing UI, not pages
-@import "_meyer-reset.scss";
-
-
-// COLORS: http://clrs.cc/
-@import "./node_modules/colors.css/sass/variables";
-
-// Semantic UI semantic-ui.com
-// the whole thins is really large, maybe swith to needed components sometime™
-@import "./node_modules/semantic-ui-css/semantic.css";
-
-// link local copies of semantic UI icon font files
-// TODO: replace with base64 import
-$iconpath: "assets/vendor/semantic-icons/";
-@font-face {
-  font-family: 'Icons';
-  src: url("#{$iconpath}/icons.eot");
-  src: url("#{$iconpath}/icons.eot?#iefix") format('embedded-opentype'), url("#{$iconpath}/icons.woff2") format('woff2'), url("#{$iconpath}/icons.woff") format('woff'), url("#{$iconpath}/icons.ttf") format('truetype'), url("#{$iconpath}/icons.svg#icons") format('svg');
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-decoration: inherit;
-  text-transform: none;
-}
-
-
-// SASSLIB
 @import "node_modules/ui-sketchbook/sasslib/sasslib";
-// SASSLIB defaults
-@include system-fonts;
-
+@include ui-sketchbook-defaults;
+// @import "./node_modules/semantic-ui-css/semantic.css"; // Semantic UI semantic-ui.com
 
 
 body {

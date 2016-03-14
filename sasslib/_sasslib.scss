@@ -78,9 +78,9 @@
 
 @import "./node_modules/colors.css/sass/variables"; // COLORS: http://clrs.cc/
 @mixin ui-sketchbook-defaults {
+  @include meyer-reset; // using reset instead of normalize because doing UI, not pages
   @include browsersync-badge-mover;
   @include system-fonts;
-  @include meyer-reset; // using reset instead of normalize because doing UI, not pages
 
   body {
     // padding-top: 5em;

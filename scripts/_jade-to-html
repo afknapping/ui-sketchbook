@@ -1,4 +1,4 @@
-./node_modules/.bin/jade src/ --out dist --hierarchy
+node_modules/.bin/jade src/ --out dist --obj src/data.json --hierarchy --pretty
 
 # --hierarchy can be removed with jade 2.0
 

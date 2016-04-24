@@ -27,7 +27,7 @@ echo "node_modules/" >> .gitignore
 echo "npm-debug.log" >> .gitignore
 
 # generate a package.json
-npm init
+npm init --yes
 
 # install the toolbox
 npm install --save ui-sketchbook
